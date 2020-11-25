@@ -11221,8 +11221,8 @@ video {
   font-family: 'Archivo Black';
 }
 
-.font-teko {
-  font-family: Teko;
+.font-oswald {
+  font-family: Oswald, sans-serif;
 }
 
 .font-thin {
@@ -42746,8 +42746,8 @@ video {
     font-family: 'Archivo Black';
   }
 
-  .sm\:font-teko {
-    font-family: Teko;
+  .sm\:font-oswald {
+    font-family: Oswald, sans-serif;
   }
 
   .sm\:font-thin {
@@ -74228,8 +74228,8 @@ video {
     font-family: 'Archivo Black';
   }
 
-  .md\:font-teko {
-    font-family: Teko;
+  .md\:font-oswald {
+    font-family: Oswald, sans-serif;
   }
 
   .md\:font-thin {
@@ -105710,8 +105710,8 @@ video {
     font-family: 'Archivo Black';
   }
 
-  .lg\:font-teko {
-    font-family: Teko;
+  .lg\:font-oswald {
+    font-family: Oswald, sans-serif;
   }
 
   .lg\:font-thin {
@@ -137192,8 +137192,8 @@ video {
     font-family: 'Archivo Black';
   }
 
-  .xl\:font-teko {
-    font-family: Teko;
+  .xl\:font-oswald {
+    font-family: Oswald, sans-serif;
   }
 
   .xl\:font-thin {
@@ -168674,8 +168674,8 @@ video {
     font-family: 'Archivo Black';
   }
 
-  .\32xl\:font-teko {
-    font-family: Teko;
+  .\32xl\:font-oswald {
+    font-family: Oswald, sans-serif;
   }
 
   .\32xl\:font-thin {
