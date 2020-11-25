@@ -14,6 +14,7 @@ module.exports = {
       serif: "Vollkorn",
       sans: [ "Lato",],
       archivo: ["'Archivo Black'"],
+      teko: ['Teko'],
     },
   },
   variants: {
