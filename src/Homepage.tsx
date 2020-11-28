@@ -12,16 +12,16 @@ const Homepage = () => {
   let match = useRouteMatch();
 
   return(
-    <div className='w-screen h-screen'>
+    <>
       <div className='home-header-container relative overflow-hidden'>
-        <div className='absolute left-0 h-full flex flex-col justify-center home-header-text'>
-          <h1 className='text-4xl sm:text-6xl z-20 break-words'>
+        <div className='absolute left-0 h-full flex flex-col justify-center'>
+          <h1 className='text-4xl sm:text-6xl z-20 break-words home-header-text'>
             I love finding simple solutions that elevate code and design
           </h1>
         </div>
 
-        <div className='home-header-image home-header-image-cover absolute right-0 overflow-hidden z-10 ' style={{backgroundPosition: '75% 25%'}}></div>
-        <div className='home-header-image absolute right-0 overflow-hidden bg-cover bg-no-repeat' style={{backgroundImage: `url(${benMiriello})`, backgroundPosition: '75% 25%'}}></div>
+        <div className='home-header-image absolute right-0 overflow-hidden home-header-image-cover z-10'></div>
+        <div className='home-header-image absolute right-0 overflow-hidden bg-cover bg-no-repeat' style={{backgroundImage: `url(${benMiriello})`}}></div>
       </div>
 
       <div className='p-4 my-8 flex justify-center'>
@@ -57,7 +57,7 @@ const Homepage = () => {
       </div>
 
       {/* <div style={{height: '48rem'}} className='mx-4 mb-4'></div> */}
-    </div>
+    </>
   )
 };
 

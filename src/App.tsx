@@ -13,14 +13,17 @@ const App = () => {
         <Link to='/' className='font-bold font-oswald text-4xl p-4 flex items-center h-full'>BEN MIRIELLO</Link>
       </div>
 
-      <Switch>
-        <Route path='/' exact>
-          <Homepage />
-        </Route>
-        <Route path='/grabameeting'>
-          <Grabameeting />
-        </Route>
-      </Switch>
+      <div className='w-screen h-screen'>
+        <Switch>
+          <Route path='/' exact>
+            <Homepage />
+          </Route>
+          <Route path='/grabameeting'>
+            <Grabameeting />
+          </Route>
+        </Switch>
+        <div className='w-full h-12'></div>
+      </div>
     </Router>
   )
 }
