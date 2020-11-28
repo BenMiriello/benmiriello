@@ -1,0 +1,36 @@
+
+.home-header-container {
+  height: 30rem;
+}
+
+.home-header-image {
+  width: 30rem;
+  height: 30rem;
+  max-width: 100vw;  
+}
+
+.home-header-image-cover {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(255,255,255,0) 100%);
+}
+
+.home-header-text {
+  padding-right: calc(100vw - 24.4rem + 5rem);
+}
+
+@media only screen and (min-width: 640px) {
+  .home-header-container {
+    height: 40rem;
+  }
+
+  .home-header-image {
+    /* height: 40rem; */
+    /* width: 32.5rem; */
+    width: 40rem;
+    height: 40rem;
+  }
+
+  .home-header-text {
+    padding-right: calc(100vw - 32.5rem + 5rem);
+  }
+}
