@@ -51,7 +51,7 @@ const Homepage = () => {
           <p className='font-oswald mb-6 text-5xl sm:text-7xl'>FROM&nbsp;CONCEPT TO&nbsp;MVP</p>
           <p className='text-xl tracking-wide max-w-xl'>As the primary developer in the early stages of Grab a Meeting, I built the website and designed its core functionalities.</p>
           <Link to={`${match.url}grabameeting`} className='cursor-pointer border-2 border-white mt-12 sm:mt-24 px-10 sm:px-20 py-10 inline-flex justify-center items-center font-oswald text-2xl tracking-wide'>
-            OUR WORK AT GRAB A MEETING
+            OUR&nbsp;WORK&nbsp;AT GRAB&nbsp;A&nbsp;MEETING
           </Link>
         </div>
       </div>
