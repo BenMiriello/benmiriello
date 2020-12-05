@@ -4,7 +4,7 @@ import './styles/tailwind.output.css';
 import './styles/app.css';
 
 import Homepage from './Homepage';
-import Grabameeting from './Grabameeting';
+import GrabameetingPage from './GrabameetingPage';
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
             <Homepage />
           </Route>
           <Route path='/grabameeting'>
-            <Grabameeting />
+            <GrabameetingPage />
           </Route>
         </Switch>
         <div className='w-full h-12'></div>
