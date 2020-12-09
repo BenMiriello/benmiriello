@@ -8,7 +8,8 @@ const Homepage = () => {
   return(
     <>
       <HeroCard />
-      <SocialLinks />
+      {/* <SocialLinks /> */}
+      <div className='h-12'></div>
       <GrabameetingCard />
     </>
   )

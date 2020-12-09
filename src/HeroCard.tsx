@@ -4,8 +4,8 @@ import React from 'react';
 const HeroCard = () => (
   <div className='uppercase font-bold text-5xl md:text-7xl home-header-container relative overflow-hidden'>
     <div className='w-full h-full absolute flex flex-col items-center justify-center'>
-      <div style={{width: '80vw', height: '80vw', color: '#222'}} className='z-10 home-header-circle bg-yellow-300 rounded-full overflow-hidden'>
-        <div style={{width: '95vw', transform: 'translate(-7.5vw)'}} className='flex flex-col justify-center items-center'>
+      <div style={{width: '80vw', height: '80vw', color: '#eb765d'}} className='z-10 home-header-circle bg-yellow-300 rounded-full overflow-hidden'>
+        <div style={{width: '95vw', transform: 'translate(-7.5vw)'}} className='home-header-container flex flex-col justify-center items-center'>
           <div className='text-center'>I love finding</div>
           <div className='text-center'>simple solutions</div>
           <div className='text-center'>that elevate</div>
@@ -15,7 +15,7 @@ const HeroCard = () => (
     </div>
     <div className='w-full h-full absolute flex flex-col items-center justify-center'>
       <div style={{width: '80vw', height: '80vw'}} className='home-header-circle text-yellow-300'>
-        <div style={{width: '95vw', transform: 'translate(-7.5vw)'}} className='flex flex-col justify-center items-center'>
+        <div style={{width: '95vw', transform: 'translate(-7.5vw)'}} className='home-header-container flex flex-col justify-center items-center'>
           <div className='text-center'>I love finding</div>
           <div className='text-center'>simple solutions</div>
           <div className='text-center'>that elevate</div>
