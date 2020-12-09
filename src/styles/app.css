@@ -42,3 +42,11 @@
     width: calc(100vw - 32.5rem + 5rem);
   }
 }
+
+.hero-text {
+  font-weight: 'lighter';
+  line-height: '110%';
+  max-width: '1700px';
+  letter-spacing: '0.05em';
+  word-spacing: '0.2em';
+}

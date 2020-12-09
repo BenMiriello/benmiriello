@@ -15,6 +15,7 @@ module.exports = {
       sans: [ "Lato",],
       archivo: ["'Archivo Black'"],
       oswald: ['Oswald', 'sans-serif'],
+      heebo: ['Heebo', 'sans-serif'],
     },
   },
   variants: {
