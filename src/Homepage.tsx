@@ -12,6 +12,7 @@ const Homepage = () => {
       <HeroCard />
       <SocialLinks />
       <GrabameetingCard />
+      <div className='w-full h-12'></div>
     </>
   )
 };

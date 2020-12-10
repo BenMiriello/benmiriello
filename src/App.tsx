@@ -18,7 +18,6 @@ const App = () => {
             <GrabameetingPage />
           </Route>
         </Switch>
-        <div className='w-full h-12'></div>
       </div>
     </Router>
   )
