@@ -1,7 +1,6 @@
 import React from 'react';
 import benMiriello from './assets/benmiriello.jpeg';
 import Nav from './Nav';
-import SocialLinks from './SocialLinks';
 
 const HeroCard = () => (
   <div className='relative home-header-container overflow-hidden'>
@@ -15,8 +14,6 @@ const HeroCard = () => (
             I love finding simple solutions that elevate code and design
           </div>
         </div>
-
-        <SocialLinks />
       </div>
     </div>
   </div>
