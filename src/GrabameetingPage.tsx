@@ -40,13 +40,12 @@ const GrabameetingPage = () => {
           </div>
 
           {/* <p className='mt-8 mb-2'>At first we tried making Grab a Meeting work without reservations. We had a small team with limited resources so we wanted to find ways around problems if possible for our MVP.</p> */}
-          <p className='text-xl mt-8 font-normal'>The Nightmare Scenario</p>
-          <p style={{textIndent: '1rem'}} className='my-2'>On Grab a Meeting, meetings start at fixed intervals every 15 minutes. The nightmare user experience we wanted to avoid was to have a user wait up to 45 minutes to join a meeting at 5:15 only to find it was full and have to wait at until 5:30 or even 6:00 to join another. Add on to that that our users are people in recovery trying to connect with a support community. There couldn't be a clearer user drop off point.</p>
+          {/* <p className='text-xl mt-8 font-normal'>The Nightmare Scenario</p> */}
+          <p style={{textIndent: '1rem'}} className='mt-8 mb-4'>On Grab a Meeting, meetings start at fixed intervals every 15 minutes. The worst user experience we wanted to avoid was to have a user wait up to 45 minutes to join a meeting at 5:15 only to find it was full and have to wait at until 5:30 or even 6:00 to join another. Add on to that that our users are people in recovery trying to connect with a support community. There couldn't be a clearer user drop off point.</p>
           {/* <p className='my-2'>Not only is that a frustrating experience to have after investing up to 45 minutes of their time waiting to join a meeting, but they would have every reason to expect it would happen again if they tried again.</p> */}
           {/* <p className='my-2'>It became clear that the problem wasn't going away just by working around it.</p> */}
 
-          <p className='text-xl mt-8 font-normal'>My Contribution</p>
-          <p style={{textIndent: '1rem'}} className='my-2'>My contribution was to take the initiative to solve the problem directly after weeks of us trying to work around the problem and then commit to seeing it through.</p>
+          <p style={{textIndent: '1rem'}} className='my-4'><span className='text-2xl mt-8 mr-1'>My Contribution</span> was to take the initiative to solve the problem directly after weeks of us trying to work around the problem and then commit to seeing it through.</p>
 
           {/* <p className='text-3xl mt-20 font-bold'>The Solution</p> */}
         </div>

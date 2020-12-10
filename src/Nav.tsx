@@ -8,12 +8,12 @@ const Nav = () => {
 
   return (
     <nav className='w-full h-24 flex flex-no-wrap justify-between'>
-      <Link to='/' className='font-bold font-oswald text-4xl p-4 flex items-center h-full'>BEN MIRIELLO</Link>
+      <Link to='/' className='font-bold font-oswald text-4xl p-8 flex items-center h-full'>BEN MIRIELLO</Link>
       <div className='flex flex-no-wrap'>
         <div className='hidden sm:block'>
           <SocialLinks />
         </div>
-        <div 
+        <div
           className='h-24 w-24 flex flex-col items-center justify-center cursor-pointer'
           onClick={() => setOpen(!open)}
         >

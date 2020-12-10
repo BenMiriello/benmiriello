@@ -5,7 +5,7 @@
 
 @media only screen and (min-width: 640px) {
   .home-header-container {
-    height: 50rem;
+    height: 40rem;
   }
 }
 
@@ -13,6 +13,34 @@
   font-weight: 'lighter';
   line-height: '110%';
   max-width: '1700px';
-  letter-spacing: '0.05em';
+  letter-spacing: '0.04em';
   word-spacing: '0.2em';
+}
+
+.blur-0 {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px); 
+
+  transition: filter 2s linear;
+  -webkit-transition: 2s -webkit-filter linear;
+  -moz-transition: 2s -moz-filter linear;
+  -ms-transition: 2s -ms-filter linear;
+  -o-transition: 2s -o-filter linear;
+}
+
+.blur-4 {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+
+  transition: filter 2s linear;
+  -webkit-transition: 2s -webkit-filter linear;
+  -moz-transition: 2s -moz-filter linear;
+  -ms-transition: 2s -ms-filter linear;
+  -o-transition: 2s -o-filter linear;
 }
