@@ -9,7 +9,7 @@ const GrabameetingCard = () => {
 
   return (
     <div style={{height: '48rem', backgroundImage: `url(${grabAMeetingCollage})`, backgroundPosition: 'center'}} className='mb-4 overflow-hidden bg-cover bg-no-repeat'>
-      <div style={{backgroundColor: 'rgb(16 17 27 / 0.87)'}} className='w-full h-full p-8 sm:p-12'>
+      <div style={{backgroundColor: 'rgb(24 26 37 / 87%)'}} className='w-full h-full p-8 sm:p-12'>
         <div className='h-20 sm:h-16 mb-12 sm:mb-24 sm:flex sm:items-center'>
           <div className='flex items-center'>
             <img className='h-12' src={grabAMeetingGWhite} alt='g icon for grab a meeting' />

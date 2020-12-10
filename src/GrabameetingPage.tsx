@@ -48,7 +48,7 @@ const GrabameetingPage = () => {
           <p className='text-xl mt-8 font-normal'>My Contribution</p>
           <p style={{textIndent: '1rem'}} className='my-2'>My contribution was to take the initiative to solve the problem directly after weeks of us trying to work around the problem and then commit to seeing it through.</p>
 
-          <p className='text-3xl mt-20 font-bold'>The Solution</p>
+          {/* <p className='text-3xl mt-20 font-bold'>The Solution</p> */}
         </div>
       </div>
     </>
