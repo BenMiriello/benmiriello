@@ -1,1 +1,1 @@
-* My contributions for [Grab a Meeting](https://grabameeting.com) are on [Gitlab](https://gitlab.com/BenMiriello), though contribution details there are private.
+* You can find my contributions for Grab a Meeting [on Gitlab](https://gitlab.com/BenMiriello), though contributions there are private
