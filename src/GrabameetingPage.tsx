@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Nav from './Nav';
 
 import grabAMeetingCollage from './assets/grabameetingcollage.png';
-import grabAMeetingGWhite from './assets/grabameeting-g-white.png';
+import grabAMeetingGWhite from './assets/grabameeting-white.png';
 
 const GrabameetingPage = () => {
   useEffect(() => window.scrollTo(0, 0));
@@ -16,7 +16,7 @@ const GrabameetingPage = () => {
           <div className='sm:mt-8 p-8 sm:p-12'>
             <div className='mb-12 flex items-center'>
               <img className='h-12' src={grabAMeetingGWhite} alt='g icon for grab a meeting' />
-              <p className='font-lato text-3xl ml-6'>Grab&nbsp;a&nbsp;Meeting</p>
+              {/* <p className='font-lato text-3xl ml-6'>Grab&nbsp;a&nbsp;Meeting</p> */}
             </div>
 
             <p style={{letterSpacing: '0.25rem'}} className='text-gray-400 font-oswald text-lg mt-12'>ROLE: DEVELOPER</p>
@@ -45,7 +45,8 @@ const GrabameetingPage = () => {
           {/* <p className='my-2'>Not only is that a frustrating experience to have after investing up to 45 minutes of their time waiting to join a meeting, but they would have every reason to expect it would happen again if they tried again.</p> */}
           {/* <p className='my-2'>It became clear that the problem wasn't going away just by working around it.</p> */}
 
-          <p style={{textIndent: '1rem'}} className='my-4'><span className='text-2xl mt-8 mr-1'>My Contribution</span> was to take the initiative to solve the problem directly after weeks of us trying to work around the problem and then commit to seeing it through.</p>
+          <p style={{textIndent: '1rem'}} className='my-4'><span className='text-2xl mt-8 mr-1'>My Contribution</span> was to take the initiative to solve the problem and then commit to seeing it through.</p>
+          {/* directly after weeks of us trying to work around the problem  */}
 
           {/* <p className='text-3xl mt-20 font-bold'>The Solution</p> */}
         </div>
