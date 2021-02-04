@@ -1,5 +1,5 @@
 import React from 'react';
-import benMiriello from './assets/benmiriello.jpeg';
+import benMiriello from './assets/paris-bg.png';
 import Nav from './Nav';
 
 // document.addEventListener('DOMContentLoaded', () => {
